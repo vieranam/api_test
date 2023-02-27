@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'api-test'
-    }
-
-  }
+  agent any
   stages {
     stage('auth_token') {
       steps {
