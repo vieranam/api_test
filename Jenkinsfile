@@ -27,7 +27,4 @@ echo "$auth_token"'''
     }
 
   }
-  environment {
-    auth_token = ''
-  }
 }
